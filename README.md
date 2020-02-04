@@ -191,11 +191,11 @@ sudo cpanm Net::WebSocket::Server
 sudo cpanm Crypt::Digest::RIPEMD160;
 
 
-git clone https://github.com/cc32d9/eosio_light_api.git /opt/eosio_light_api
+git clone https://github.com/mewmix/eosio_light_api.git /opt/eosio_light_api
 cd /opt/eosio_light_api
 
 sudo mysql <sql/lightapi_dbcreate.sql
-sh setup/add_eos_mainnet.sh
+sh setup/add_yas_mainnet.sh
 
 curl -sL https://deb.nodesource.com/setup_13.x | bash -
 apt install -y nodejs
